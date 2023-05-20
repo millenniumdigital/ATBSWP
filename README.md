@@ -4,4 +4,4 @@
 ### Menu
 
 #### Chapter 3
-##### [The Collatz Sequence](./01_CollatzSequence) with Input Validation, p. 77
+##### [The Collatz Sequence](./01_CollatzSequence) with Input Validation, (ATBSWP p. 77)
