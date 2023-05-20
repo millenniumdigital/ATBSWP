@@ -1,0 +1,36 @@
+## The Collatz Sequence with Input Validation (ATBSWP p. 77)
+### Created 2023-05-19 
+
+def collatz(number):
+    print(number)
+    while number != 1:  
+        if number%2 == 0:  #if the input number is even...
+            number = number//2
+        else:  #if the input number is odd... 
+            number = 3 * number + 1
+        return (collatz(number))
+
+
+def get_input():
+    question = "Enter a number to view its \'collatz sequence\':"
+    number = input(question)
+    test_input(number)
+    return number
+
+
+def test_input(number):
+    try:
+        if number.isnumeric():
+            collatz(int(number))
+    except:
+        get_input()
+    return  number
+
+
+def main():
+    get_input()
+    return
+
+
+if __name__ == "__main__":
+    main()
