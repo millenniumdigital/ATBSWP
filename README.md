@@ -1,5 +1,7 @@
-# "Automate the Boring Stuff with Python", by Al Sweigart (2015)
-## Project and practice projects
+# "Automate the Boring Stuff with Python", 
+## by Al Sweigart (2015)
+
+### A repository of project and practice project solutions
 
 ### Menu
 
